@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Fighting-Spirit;
+    src: url(Fighting\ Spirit\ 2.ttf);
+}
+
+*{
+    box-sizing: border-box;     /* calculates width taking into consideration padding and border */
+}
+
+
+h1{
+    font-family: Fighting-Spirit, Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 5px red, -3px -3px 5px blue;
+}
+
+
+.box{
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+
+
+/* 
+
+a:link{}
+
+a:hover{}
+
+a:active{}
+
+a:visited{}
+
+
+li:hover{}
+
+li:not(:hover){}
+
+li:nth-child(2){}
+li:nth-child(odd){}
+li:nth-child(even){}
+li:nth-child(3n){}
+
+*/
+
+
+/* 
+
+combinators: relationship between selectors
+      = descendant
+    > = direct child
+    ~ = general sibling
+    + = adjacent sibling
+
+
+pseudo-element: 
+    h1::first-letter{font-size: 2em; font_style: italic;}
+    p::first-line{cackground-color: hsl(60, 100%, 77%);}
+    p::selection{color: rgb(89, 255, 71); background-color: hsl(0, 0%, 21%);}
+    li::marker{content: "✔";}
+    li::before{content: "😊";}
+    li::after{content: "❤";}
+
+*/
+
+
+/* 
+position:
+    relative: relative to where it normally is
+    fixed: relative to viewport
+    absolute: relative to nearest ancestor (parent)
+    sticky: based on scroll
+    static: default position
+*/
+
+/* 
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+*/
+
+
+
+
+/* 
+
+float 
+flow-root
+
+
+overflow: visible --> default --> we can still see the content that appears out of its container
+
+overflow: hidden
+
+overflow: clip;
+overflow-clip-margin: 13px;
+
+overflow: scroll; --> adds scrollbar
+
+overflow: auto; --> adds scrollbar only when needed
+
+
+
+
+display: block -> takes all the space -> can define width/height ----------------> div
+display: inline -> takes only the content's space -> can't define width/height --> span
+display: inline-block -> takes only the content's space, but we can define a different width/height
+
+
+visibility: hidden --> the element is still there but invisible
+
+
+*/

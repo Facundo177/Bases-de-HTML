@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0px;
+        }
+        main{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        .navbar ul{
+            list-style: none;
+            background-color: hsl(0, 0%, 25%);
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+        .navbar a:hover{
+            background-color: hsl(0, 0%, 10%);
+        }
+        .navbar li{
+            float: left;
+        }
+
+
+
+        aside{
+            width: 20%;
+            float: left;
+            padding: 10px;
+        }
+        section{
+            width: 40%;
+            float: left;
+            padding: 10px;
+        }
+        article{
+            width: 40%;
+            float: left;
+            padding: 10px;
+        }
+        @media screen and (max-width:600px) {
+            aside, section, article{
+                width: 100%;
+            }
+        }
+
+
+    </style>
+
+
+    <h1>Bro Code</h1>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="nav-bar.html">Home</a></li>    <!-- href to different html files -->
+            <li><a href="">About</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+        <h3>Home page</h3>
+
+        <aside>
+            <h2>Aside</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor non consequuntur veritatis temporibus veniam facere nam harum culpa eveniet, ducimus beatae deleniti sequi odio nihil libero est sunt quasi!</p>
+        </aside>
+        <section>
+            <h2>Section</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium aspernatur dolorem nisi iure, incidunt doloremque ipsum provident odit cupiditate, perspiciatis ullam maxime necessitatibus minus pariatur dolorum asperiores animi error excepturi!</p>
+        </section>
+        <article>
+            <h2>Article</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque earum repudiandae magnam iusto amet laudantium vitae sunt obcaecati quisquam! Repellat amet reiciendis atque veritatis quam nam consequuntur ab eum aperiam!</p>
+        </article>
+    </main>
+
+
+    
+</body>
+</html>
